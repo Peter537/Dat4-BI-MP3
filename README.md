@@ -7,7 +7,7 @@ By ...
 - How accurate is your solution?
 - What could be done for further improvement of the accuracy?
 
-[ ] Check for outliers
+[x] Check for outliers
 
 [ ] PCA
 
