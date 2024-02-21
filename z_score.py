@@ -9,7 +9,22 @@ import pandas as pd
 
 outliers = []
 
-def calculate(data, threshold=3.0, drop=False):
+def calculateList(data, threshold=3.0, drop=False):
+    outliers.clear()
+
+    mean = np.mean(data)
+    std = np.std(data)
+
+    for point in data:
+        z = (point - mean) / std
+        if np.abs(z) > threshold:
+            outliers.append(point)
+            if drop:
+                data = data[data != point]
+
+    return data
+
+def calculateFrame(data, threshold=3.0, drop=False):
     
     # Start by clearing the outliers list
     outliers.clear()
@@ -38,9 +53,8 @@ def calculate(data, threshold=3.0, drop=False):
                 outliers.append(point)
                 if drop:
                     data = data[data[column] != point]
+
     return data
 
-def getOutliers(data, threshold=3.0):
-    if len(outliers) == 0:
-        calculate(data, threshold)
+def getOutliers():
     return outliers
