@@ -6,7 +6,7 @@ import pandas as pd
 
 outliers = []
 
-def calculate(data, threshold=3.0):
+def calculate(data, threshold=3.0, drop=False):
     
     # Start by clearing the outliers list
     outliers.clear()
@@ -33,6 +33,9 @@ def calculate(data, threshold=3.0):
             # If the z-score is greater than the threshold, add the point to the outliers list
             if np.abs(z) > threshold:
                 outliers.append(point)
+                if drop:
+                    data = data[data[column] != point]
+    return data
 
 def getOutliers(data, threshold=3.0):
     if len(outliers) == 0:
