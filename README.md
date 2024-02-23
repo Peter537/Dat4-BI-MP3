@@ -11,6 +11,6 @@ By ...
 
 [x] PCA
 
-[ ] SKLearn modelling on top
+[x] SKLearn modelling on top
 
-[ ] Measure accuracy of model
+[x] Measure accuracy of model (sort of done?)
