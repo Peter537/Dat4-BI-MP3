@@ -9,7 +9,7 @@ By ...
 
 [x] Check for outliers
 
-[ ] PCA
+[x] PCA
 
 [ ] SKLearn modelling on top
 
