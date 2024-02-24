@@ -4,7 +4,9 @@ By Magnus, Peter and Yusuf
 
 - What type/s of regression have you applied?
 
-Multiple linear, polynominal and random forrest regression.
+The following models were used and tested: multiple linear, polynominal and random forrest regression.
+
+After running all the models using various versions of the data, the random forest regression was the most accurate.
 
 - Which were the challenges?
 
