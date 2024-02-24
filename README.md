@@ -18,7 +18,5 @@ The best model had an accuracy of 85%, measured using R2-scoring. For predicting
 
 Better fitting model? More data analysis/cleaning?
 
-[x] Pickle the best model
 [ ] Explain the different models
 [ ] Are we using multiple linear and polynomial regression models
-[x] Maybe add more text to print statements
