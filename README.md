@@ -4,11 +4,11 @@ By Magnus, Peter and Yusuf
 
 - What type/s of regression have you applied?
 
-Regression. Not quite sure what to answer here....
+Multiple linear, polynominal and random forrest regression.
 
 - Which were the challenges?
 
-Not sure what to answer here
+The biggest challenge was figuring out how to best fit the data to a model, as there are trade offs, like speed and accuracy, depending on how the data is fed to the learning models.
 
 - How accurate is your solution?
 
@@ -16,6 +16,6 @@ The best model had an accuracy of 85%, measured using R2-scoring. For predicting
 
 - What could be done for further improvement of the accuracy?
 
-Better fitting model? More data analysis/cleaning?
+For just improving the accuracy, more data and perhaps a better evaluation or prioritation of data could improve the accuracy of the used models. Finding a different type of model, which is better suited, could also be a way to increase accuracy.
 
-[ ] Explain the different models
+It would also be a good idea to consider improving the speed of the models.
