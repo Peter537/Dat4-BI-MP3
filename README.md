@@ -21,4 +21,4 @@ Better fitting model? More data analysis/cleaning?
 [x] Pickle the best model
 [ ] Explain the different models
 [ ] Are we using multiple linear and polynomial regression models
-[ ] Maybe add more text to print statements
+[x] Maybe add more text to print statements
