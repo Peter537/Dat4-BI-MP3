@@ -4,7 +4,7 @@ By Magnus, Peter and Yusuf
 
 - What type/s of regression have you applied?
 
-Regression. Not quite sure what to answer here either....
+Regression. Not quite sure what to answer here....
 
 - Which were the challenges?
 
@@ -19,4 +19,3 @@ The best model had an accuracy of 85%, measured using R2-scoring. For predicting
 Better fitting model? More data analysis/cleaning?
 
 [ ] Explain the different models
-[ ] Are we using multiple linear and polynomial regression models
